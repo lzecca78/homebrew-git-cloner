@@ -2,16 +2,16 @@
 class GitCloner < Formula
   desc "Git-cloner binary"
   homepage "https://gihub.com/lzecca78/git-cloner"
-  version "0.64.0"
+  version "0.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/lzecca78/git-cloner/releases/download/v0.64.0/git-cloner-darwin-amd64.tar.gz"
-    sha256 "786d7f8ad517bdd872a8804b22027fd60bd9ebc03677ea3c9f4e56ac827f0723"
+    url "https://github.com/lzecca78/git-cloner/releases/download/v0.1.0/git-cloner-darwin-amd64.tar.gz"
+    sha256 "8a55d81af427261286a8af092785e2bac8f8dbc7d0982f20d5be10b02ad1a1fa"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/lzecca78/git-cloner/releases/download/v0.64.0/git-cloner-linux-amd64.tar.gz"
-      sha256 "2b56185117b49e444826d827500ed0544a86171263a8a3d1601e4074bb3d6dce"
+      url "https://github.com/lzecca78/git-cloner/releases/download/v0.1.0/git-cloner-linux-amd64.tar.gz"
+      sha256 "7fba9c20a975ed32b444949575b11a57a46c8a4978ef843a059e52e5a17c69ce"
     end
   end
   
